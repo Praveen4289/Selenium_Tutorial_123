@@ -1,0 +1,100 @@
+1655379883525	geckodriver	INFO	Listening on 127.0.0.1:57635
+1655379886664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57636" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\PK\\AppData\\Local\\Temp\\rust_mozprofilejO06hY"
+1655379888487	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:57636
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PK\\AppData\\Local\\Temp\\rust_mozprofilejO06hY\\search.json.mozlz4", (void 0)))
+1655379893677	Marionette	INFO	Listening on port 57665
+Read port: 57665
+DevTools listening on ws://localhost:57636/devtools/browser/3f11856e-6557-4b52-870c-4bfba2832aea
+1655379893813	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655379900210	Marionette	INFO	Stopped listening on port 57665
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1655379985681	geckodriver	INFO	Listening on 127.0.0.1:57741
+1655379988782	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57742" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\PK\\AppData\\Local\\Temp\\rust_mozprofileguWTdk"
+1655379990138	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:57742
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PK\\AppData\\Local\\Temp\\rust_mozprofileguWTdk\\search.json.mozlz4", (void 0)))
+1655379995029	Marionette	INFO	Listening on port 57771
+DevTools listening on ws://localhost:57742/devtools/browser/96b092d8-7bda-4928-9b44-235dde066918
+Read port: 57771
+1655379995191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655380001078	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-06-16T11:46:41Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-16T11:46:41Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-16T11:46:41Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-16T11:46:41Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1655380007121	Marionette	INFO	Stopped listening on port 57771
+1655458971318	geckodriver	INFO	Listening on 127.0.0.1:61938
+1655458974502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61939" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\PK\\AppData\\Local\\Temp\\rust_mozprofileDBXbrL"
+1655458975948	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61939
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PK\\AppData\\Local\\Temp\\rust_mozprofileDBXbrL\\search.json.mozlz4", (void 0)))
+1655458982505	Marionette	INFO	Listening on port 61978
+DevTools listening on ws://localhost:61939/devtools/browser/dc38cda7-cdcb-4044-bfc2-896ee3a591fc
+Read port: 61978
+1655458982699	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655458994198	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-06-17T09:43:14Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-17T09:43:14Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-17T09:43:14Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-17T09:43:14Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1655458995211	Marionette	INFO	Stopped listening on port 61978
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\PK\AppData\Local\Temp\rust_mozprofileDBXbrL\protections.sqlite
+1655459057253	geckodriver	INFO	Listening on 127.0.0.1:62094
+1655459060510	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62095" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\PK\\AppData\\Local\\Temp\\rust_mozprofilerj8EZz"
+1655459062525	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62095
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PK\\AppData\\Local\\Temp\\rust_mozprofilerj8EZz\\search.json.mozlz4", (void 0)))
+1655459069435	Marionette	INFO	Listening on port 62135
+DevTools listening on ws://localhost:62095/devtools/browser/75abb309-3710-49e3-a2a1-e15e2e77ef9a
+Read port: 62135
+1655459069614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655459076238	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-06-17T09:44:36Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-17T09:44:36Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-17T09:44:36Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-06-17T09:44:36Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1655459076880	Marionette	INFO	Stopped listening on port 62135
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\PK\AppData\Local\Temp\rust_mozprofilerj8EZz\protections.sqlite

@@ -1,0 +1,84 @@
+Locators:
+
+ id, name , classname, tagname, linktext, partiallinktext,xpath,cssSelector
+
+ xpath:
+ =====
+
+ 1) relative xpath
+
+ 2) absolute xpath
+
+ 1) relative xpath --->
+
+     i)  Single attribute
+
+     ii) Multiple attribute
+
+     iii)text() function
+
+     iv) contains() function
+
+     v)  starts-with() function
+
+
+1) Single attribute:
+
+   //tagname[@attribute='value']
+
+   //input[@id='email']
+
+  //input[@name='email']
+
+  //input[@class='inputtext _55r1 _6luy']
+
+  //input[@data-testid='royal_email']
+
+  //input[@placeholder='Email address or phone number']
+
+  //input[@aria-label='Email address or phone number']
+
+ 2) Multiple attribute:
+ ======================
+
+ //tagname[@attribute='value'][@attribute='value']
+
+ //input[@class='_8esa'][@value=2]
+
+ 3) text() fucntion:
+ ===================
+
+ //tagname[text()='value']
+
+//button[text()='Log In']
+
+4) contains() --> text(), attribute
+===================================
+contains() --> text()
+
+//tagname[contains(text(),'partial value')]
+
+//a[contains(text(),'got')]
+
+contains() ---> attribute
+=======================
+//tagname[contains(@attribute,'value')]
+
+//a[contains(@id,'_0_2_')]
+
+
+5) starts-with()--> text(), attribute
+======================================
+
+starts-with()--> text()
+
+//tagname[starts-with(text(),'starting')]
+
+//a[starts-with(text(),'Fo')]
+
+starts-with()-->attribute
+========================
+
+//tagname[starts-with(@attribute,'value')]
+
+//a[starts-with(@id,'u_0_2_')]
