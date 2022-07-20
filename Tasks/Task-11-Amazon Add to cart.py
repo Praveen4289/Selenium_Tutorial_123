@@ -1,6 +1,7 @@
 # Reqirement: open amazon.in and sign-in and search product and pick from auto suggestion and scroll down to 5th product and place add to cart.
 
 #Imported Files
+
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common import action_chains
@@ -48,10 +49,11 @@ if usr_name=="Hello, Praveen":
     print("##############Sign_in successful################")
 else:
     print("##############sign in failed################")
+print("Before switching child to Parent window --> Title:",driver.title)
 
 #performing search and auto suggestion
 
-driver.find_element(By.XPATH,searchinput_xpath).send_keys("Iphone")
+driver.find_element(By.XPATH,searchinput_xpath).send_keys("Iphone 13")
 suggestion_list=driver.find_elements(By.XPATH,suggestion_list_xpath)
 print("Number of Auto Suggestion :",len(suggestion_list))
 
@@ -66,7 +68,7 @@ driver.execute_script("window.scrollBy(0,1350)")
 driver.find_element(By.XPATH,fifth_product_xpath).click()
 
 #switching to child window and perfoming add to cart and validateing
-print("Before switching child to Parent window --> Title:",driver.title)
+
 parent_window=driver.current_window_handle
 child_win=driver.window_handles
 for i in range(len(child_win)):
